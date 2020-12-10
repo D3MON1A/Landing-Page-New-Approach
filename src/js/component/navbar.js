@@ -4,8 +4,10 @@ export function Navbar() {
 	return (
 		<div className="text-center mt-5">
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="#">
-					Navbar
+				<a
+					className="navbar-brand"
+					href="https://reactjs.org/tutorial/tutorial.html">
+					Intro
 				</a>
 				<button
 					className="navbar-toggler"
@@ -21,21 +23,28 @@ export function Navbar() {
 					className="collapse navbar-collapse"
 					id="navbarNavAltMarkup">
 					<div className="navbar-nav">
-						<a className="nav-item nav-link active" href="#">
-							Home <span className="sr-only">(current)</span>
-						</a>
-						<a className="nav-item nav-link" href="#">
-							Features
-						</a>
-						<a className="nav-item nav-link" href="#">
-							Pricing
+						<a
+							className="nav-item nav-link active"
+							href="https://reactjs.org/docs/getting-started.html#learn-react">
+							Learn React{" "}
+							<span className="sr-only">(current)</span>
 						</a>
 						<a
-							className="nav-item nav-link disabled"
-							href="#"
+							className="nav-item nav-link"
+							href="https://reactjs.org/docs/react-component.html">
+							Components
+						</a>
+						<a
+							className="nav-item nav-link"
+							href="https://reactjs.org/docs/hooks-intro.html">
+							Hooks
+						</a>
+						<a
+							className="nav-item nav-link"
+							href="https://reactjs.org/docs/testing.html"
 							tabIndex="-1"
-							aria-disabled="true">
-							Disabled
+							aria-disabled="false">
+							Testing
 						</a>
 					</div>
 				</div>
