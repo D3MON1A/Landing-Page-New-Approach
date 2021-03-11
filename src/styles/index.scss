@@ -9,4 +9,36 @@ background: radial-gradient(circle, rgba(238,174,202,1) 44%, rgba(71,114,114,1) 
 
 }
 
+.btn btn-primary{
+    border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
 
+.btn btn-primary:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.btn{
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66);
+}
+
+.navbar {
+-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66);
+}
+.jumbotron{
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66);
+
+}
+.card{
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66);
+}
+.nav{
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 20px 5px rgba(0,0,0,0.66);
+}
